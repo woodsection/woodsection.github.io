@@ -1,7 +1,7 @@
 ---
 title: Spring Boot Cors 정책 적용
 author: woodsection
-date: 2022-07-16 11:33:00 +0800
+date: 2022-07-16 11:30:00 +0800
 categories: [Spring, Spring Boot]
 tags: [typography]
 ---
