@@ -1,7 +1,7 @@
 ---
 title: Istio의 Security
 author: woodsection
-date: 2022-07-25 00:00:00 +0800
+date: 2022-07-25 23:05:00 +0900
 categories: [Infra, Istio, Security]
 tags: [ServiceMesh, Istio, Kubernetes]
 published: true
