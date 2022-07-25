@@ -26,15 +26,15 @@ Java7을 지원하는 스프링 부트 1.5 에서는 `[default` 메서드(http
 - WebSecurityConfigurerAdapter를 상속받고, Spring Security가 적용된 `WebSecirityConfig.java`
 - CorsConfigurationSource를 스프링 Bean 등록
 
-![Untitled](/assets/img/2022-07-16-spring_boot_cors/Untitled.png)
+![Untitled](/assets/img/posts/2022/07/16/spring-boot-cors/Untitled.png)
 
 - addAllowedOrigin() CORS 정책 적용
 
-![Untitled](/assets/img/2022-07-16-spring_boot_cors/Untitled%201.png)
+![Untitled](/assets/img/posts/2022/07/16/spring-boot-cors/Untitled1.png)
 
 - registerCorsConfiguration(), 모든 path에 대해 CORS 정책 적용
 
-![Untitled](/assets/img/2022-07-16-spring_boot_cors/Untitled%202.png)
+![Untitled](/assets/img/posts/2022/07/16/spring-boot-cors/Untitled2.png)
 
 # Exception 발생 시 CORS Header 적용여부
 
@@ -72,7 +72,7 @@ public class TestController {
 
 ## request 결과
 
-![Untitled](/assets/img/2022-07-16-spring_boot_cors/Untitled%203.png)
+![Untitled](/assets/img/posts/2022/07/16/spring-boot-cors/Untitled3.png)
 
 - NullPointerException 발생 및 500 에러 response
 - origin, referer 헤더에 따른 CORS 헤더는 정상적으로 반환
